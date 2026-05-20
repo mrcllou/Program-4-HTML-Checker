@@ -7,6 +7,11 @@ public class HTMLManager {
         if (html == null) {
            throw new IllegalArgumentException("null");
         } 
+        
+        tags = new LinkedList<Integers>();
+        
+        while(!html.isEmpty()){
+        }
     }
     
     public Queue<HTMLTag> getTags(){
