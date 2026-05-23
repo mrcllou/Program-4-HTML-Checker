@@ -5,11 +5,14 @@ public class HTMLManager {
   
    public HTMLManager(Queue<HTMLTag> html) {
         tags = new LinkedList<>();
+        
         if (html == null) {
            throw new IllegalArgumentException("null");
         } 
         
         while(!html.isEmpty()){
+            HTMLTag value = html.remove; 
+            tags.add(value); 
         }
     }
     
@@ -18,10 +21,7 @@ public class HTMLManager {
     }
     
     public void fixHTML(){
-      Stack<HTMLTag> openings = new Stack<>();
-      int size = this.tags.size();
-      for(int i = 0; i < size; i++){
-      }
+      
     }
     
     public String toString(){
