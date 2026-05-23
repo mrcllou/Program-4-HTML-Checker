@@ -18,7 +18,7 @@ public class HTMLManager {
     }
     
     public void fixHTML(){
-      Stack<HTMLTag> openings = new Stack<HTMLtag>();
+      Stack<HTMLTag> openings = new Stack<>();
       int size = this.tags.size();
       for(int i = 0; i < size; i++){
       }
